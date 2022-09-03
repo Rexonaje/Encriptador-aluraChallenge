@@ -1,0 +1,154 @@
+/*textarea{
+	border: 1px solid black;
+	
+}*/
+body{
+	padding: 0;
+	margin: 0;
+	
+}
+main{
+	
+	font-family: 'Kenia', cursive;
+}
+
+/*header*/
+
+header{
+	background: #BB9981;
+	height: 150px;
+	display: flex;
+	align-items: center;
+}
+header img{
+	margin: 40px;
+	width: 140px;
+	height: auto;
+}
+header h1{
+	padding-top: 30px;
+	padding-left: 10px;
+	font-size: 50px;
+	line-height: 30px;
+	text-align: center;
+	font-weight: lighter;
+}
+/* page*/
+
+.page{
+	background-color: #F4FCD9;
+	border-top:2px solid #534340;
+	border-bottom:2px solid #534340;
+}
+.container{
+	display:flex;
+	flex-direction:row;
+	align-items: center;
+}
+	.container section{
+		display:flex;
+		flex-direction:column;
+		flex: 1 1 0; 	
+	}
+.encriptador, .encriptadorOuput{
+	margin: 1em;
+	padding-left:42px;
+}
+	.container h2{
+		font-size: 50px;
+		line-height: 30px;
+		text-align:left;
+		font-weight: lighter;
+		color: #870D0D;
+		text-decoration: underline;
+	}
+		.EncriptInput{
+			width: 830px;
+			
+			background-color: #F4FCD9;
+		}
+		.EncriptOutput{
+			background-color: #BB9981;
+			width:500px;
+			
+			
+		}
+		.EncriptInput, .EncriptOutput{
+			border-radius: 20px;
+			/*box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.25)inset ;*/
+			box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+			border: 2px solid #534340;
+			height:400px;
+
+			/* text*/ 
+			font-family: 'Inter';
+			font-style: italic;
+			font-weight: 600;
+			font-size: 50px;
+			line-height: 39px;
+			padding: 20px;
+		}
+.buttons{
+	display: flex;
+	flex-direction: row;
+	/*align-items: center;*/
+	
+}
+button{
+	margin:15px 0 ;
+	background: #534340;
+	color: #F4FCD9;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 9px;
+
+	font-family: 'Kenia', cursive;
+	font-size: 50px;
+	margin-left: 40px;
+	padding: 0 30px;
+	margin-right: 30px;
+}
+button:hover{
+	
+	
+	background: #BB9981;
+	color: #F4FCD9;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+
+	font-family: 'Kenia', cursive;
+	font-size: 50px;
+
+	
+	
+}
+#copy{
+	margin-left: 30px;
+width:500px;
+
+}
+
+
+
+/* footer */
+footer{
+	background: #BB9981;
+	height: 150px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+footer h3, footer a{
+	font-size: 30px;
+	margin: 20px;
+	margin-left: 60px;
+
+}
+footer a{
+font-family: 'Jacques Francois';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-decoration: none;
+color: #870D0D;
+}
